@@ -7,6 +7,8 @@ set("n", "<S-Tab>", ":BufferLineCyclePrev<CR>", { desc = "Previous buffer" })
 set("n", "<leader>bc", ":bn | bd #<CR>", { desc = "Close buffer and go to next" })
 --global
 set("n", "<leader>e", ":Neotree toggle<CR>", { desc = "Toggle file explorer" })
+set("n", "<leader>ll", ":Lazy<CR>", { desc = "Toggle Lazy" })
+set("n", "<leader>lm", ":Mason<CR>", { desc = "Toggle Mason" })
 --find
 set("n", "<leader>fl", ":Telescope live_grep<CR>", { desc = "Live find" })
 set("n", "<leader>ff", ":Telescope<CR>", { desc = "Find file" })
